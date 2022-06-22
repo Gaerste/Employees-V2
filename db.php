@@ -1,8 +1,8 @@
 <?php
 
-$con = mysqli_connect('localhost', 'root','','jsoninsert');
+$con = mysqli_connect('localhost', 'root','','employees');
 
-$filename = "db.json";
+$filename = "employees.json";
 
 $data = file_get_contents($filename);
 
@@ -13,6 +13,6 @@ print_r($array);
 echo "<pre>";
 
 foreach($array as $value){
-    $query = "INSERT INTO `employees` (`name`, 'email`, `photo`) VALUES (`".$value['name']."`,`".$value['email']."`,`".$value['photo']."`)";
+    $query = "INSERT INTO `emplo` (`name`, 'age`, `lastName`) VALUES (`".$value['name']."`,`".$value['age']."`,`".$value['lastName']."`)";
     mysqli_query($con,$query);
 }
