@@ -1,0 +1,75 @@
+
+body{
+background: #ddd; 
+font-family: monospace; 
+}
+.container-table{ 
+ width: 90%; 
+background: white;
+margin:50px auto;
+box-shadow: 0 0 20px #333;
+
+display:grid;
+grid-template-columns: repeat(10,1fr);
+grid-auto-rows: 40px;
+justify-items: center;
+justify-content: center;
+}
+.table__title{
+  grid-column-start: 1;
+  grid-column-end: 11;
+}
+.table__header,
+ .table__item {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.table__header{
+font-weight: bold;
+font-size: 1em;
+}
+.table__item{
+  padding: 10px;
+  font-size: 1em;
+}
+.container-add{
+  width: 90%;
+  margin: 50px auto;
+}
+.container__title{
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(120, 65, 40, 1);
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+.container__form{
+  background: white;
+  box-shadow: 0 0 20px #333;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container__label{
+  font-size:1em;
+  width: 20%;
+
+}
+.container__input{
+  width: 25%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  padding: 5px;
+}
+.container__submit{
+  width: 100%;
+  margin-left: 1em;
+  margin-bottom: 10px;
+  font-size: 1em;
+  padding: 5px;
+  text-align: center;
+  
+}
