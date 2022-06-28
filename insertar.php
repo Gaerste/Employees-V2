@@ -4,7 +4,7 @@ include("conection.php");
 $nombre = $_POST["nombre"];
 $apellido = $_POST["last_name"];
 $email = $_POST["email"];
-$gender = $_POST["gender_id"];
+$gender = $_POST["gender"];
 $city = $_POST["city"];
 $streetaddress = $_POST["street_address"];
 $state = $_POST["state"];
@@ -12,7 +12,7 @@ $age = $_POST["age"];
 $postalcode = $_POST["postal_code"];
 $phonenumber = $_POST["phone_number"];
 
-$insertar = "INSERT INTO employees(nombre,last_name,email,gender_id,city,street_address,state,age,postal_code,phone_number)VALUES('$nombre','$apellido',
+$insertar = "INSERT INTO employees(nombre,last_name,email,gender,city,street_address,state,age,postal_code,phone_number)VALUES('$nombre','$apellido',
 '$email',
 '$gender',
 '$city',

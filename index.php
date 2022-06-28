@@ -45,7 +45,7 @@
         <div class="table__item"> <?php echo $row["name"]?> </div>
         <div class="table__item"><?php echo $row["last_name"]?></div>
         <div class="table__item"> <?php echo $row["email"]?></div>
-        <div class="table__item"><?php echo $row["gender_id"]?></div>
+        <div class="table__item"><?php echo $row["gender"]?></div>
         <div class="table__item"> <?php echo $row["city"]?></div>
         <div class="table__item"> <?php echo $row["street_address"]?></div>
         <div class="table__item"> <?php echo $row["state"]?></div>
