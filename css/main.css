@@ -1,0 +1,137 @@
+
+:root {
+  --main-color: #373F51;
+  --secondary-color: #008DD5;
+  --tertiary-color: #00D548; 
+  --border-gradient: linear-gradient(to bottom, var(--secondary-color), var(--main-color)) 27 50%;
+}
+
+
+
+.aside {
+  background-color: var(--main-color);
+}
+
+.aside__left {
+  border-right: 2rem solid;
+  border-image: var(--border-gradient);
+  background-image: url('../imgs/olena-sergienko-dIMJWLx1YbE-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.aside__right {
+  border-left: 2rem solid;
+  border-image: var(--border-gradient);
+  background-image: url('../imgs/marvin-meyer-SYTO3xs06fU-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.loginForm {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.navbar__container {
+  border-bottom: .1rem solid;
+  border-image: linear-gradient(to right, var(--main-color), var(--secondary-color)) 27 48%;
+}
+
+.footer {
+    height: 20%;
+    background-color: var(--main-color);
+    border-top: .8rem solid;
+    border-image: linear-gradient(to right, var(--main-color), var(--secondary-color)) 27 48%;
+    background-image: url('../imgs/charles-forerunner-3fPXt37X6UQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;    
+    background-blend-mode: multiply;
+  
+}
+
+.btn {
+  background-color: var(--main-color);
+  border-radius: 1rem;
+  /* border: solid .1rem var(--secondary-color); */
+}
+
+.btn:hover {
+  background-color: var(--main-color);
+  border: solid .3rem var(--secondary-color);
+}
+
+.dash__row:hover {
+  background-color:#eaf8ff;
+}
+
+.dash__btn {
+  background-color: white;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+
+}
+
+.dash__btn:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.delete__btn {
+  background-color: white;
+  color: var(--main-color);
+  font-size: 1.2rem;
+  border: none;
+}
+
+.delete__btn:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.row {
+  display: table-row-;
+  
+}
+
+/* .cell {
+  display: table-cell;
+  float: right;
+} */
+
+.new__employee {
+  background: hsl(120deg 95% 73% / 44%);
+  
+}
+
+
+
+.btn__add {  
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: var(--secondary-color);
+  border: .2rem solid transparent;
+}
+
+.btn__add:hover {  
+  color: white;
+  background-color: var(--secondary-color);
+  border: .2rem solid white;
+}
+
+.employee__label {
+  background-color:#eaf8ff;
+}
+
+.employee_input {
+  
+  font-size: 2rem;
+}
+
+.employee__label {
+  font-size: 1.2rem;
+  
+}

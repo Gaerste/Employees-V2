@@ -26,7 +26,7 @@ $resultado = mysqli_query($conexion, $insertar);
 if ($resultado){
     echo "<script> alert ('Se ha registrado el usuario con éxito');
     window.location='/Employees-V2'";
-}else {
+} else {
         echo"<script> alert('No se pudo registrar');
         window.history.go(-1);
         </script>";
